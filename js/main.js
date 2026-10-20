@@ -1,0 +1,1 @@
+const intro=document.querySelector('#intro'),letter=document.querySelector('#letter');document.querySelector('#open').addEventListener('click',()=>{intro.classList.add('hidden');letter.classList.remove('hidden');letter.classList.add('fade')});document.querySelector('#close').addEventListener('click',()=>{letter.classList.add('hidden');intro.classList.remove('hidden')});
